@@ -3,7 +3,7 @@ pjson = JSON.parse(File.read('package.json'))
 
 Pod::Spec.new do |s|
 
-  s.name            = "JCore"
+  s.name            = "RNJCore"
   s.version         = pjson["version"]
   s.homepage        = pjson["homepage"]
   s.summary         = pjson["description"]
